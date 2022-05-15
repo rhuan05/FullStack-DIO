@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(177, 225, 255);
+}
+
+.blocoTarefaInput{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    font-size: 20px;
+}
+
+input{
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+button {
+    border-radius: 10px;
+    border: 2px solid rgb(57, 202, 0);
+    background-color: rgb(130, 255, 80);
+    color: rgb(36, 36, 36);
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
